@@ -1,0 +1,5 @@
+prettytable==2.1.0
+requests==2.31.0
+autopep8==2.0.2
+pylint==2.17.4
+unittest2==1.1.0

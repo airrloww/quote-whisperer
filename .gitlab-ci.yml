@@ -1,0 +1,14 @@
+
+
+stages:
+  - test
+
+run_tests:
+  stage: test
+  image: python:3.9.16
+  script: 
+    - pip install -r requirements.txt
+    - python3 -m autopep8 --in-place --aggressive --aggressive *.py
+    - python3 -m unittest test_whisperer_app.py
+    - python3 -m pylint *.py
+

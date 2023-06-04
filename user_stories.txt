@@ -1,0 +1,50 @@
+##################
+## user_stories ##
+##################
+
+# As a developer, I want to use GitLab, so that I can properly manage and version control my project.
+
+# As a user, I want to be able to register and have my own profile, so that I can have a personalized experience and have my preferences and interactions saved.
+
+# As a developer, I want to store user data in a database (even if it's a simple Python dictionary), so that I can maintain state between different sessions of the application.
+
+# As a developer, I want to write unit tests with high coverage, so that I can be confident that the code is working as expected and that changes do not introduce regressions.
+
+###########################
+## pipeline_user_stories ##
+###########################
+
+    # As a developer, I want to set up a CI/CD pipeline, so that I can automate the testing and building process to increase efficiency and reduce manual errors.
+
+    # As a developer, in my CI/CD pipeline, I want to automate a PEP8 compliance check, so that I can ensure that the codebase maintains a consistent style and is adhering to the Python community's style guidelines.
+
+    # As a developer, in my CI/CD pipeline, I want to automate a lint check, so that I can catch potential errors and bugs in the code before they cause problems.
+
+    # As a developer, in my CI/CD pipeline, I want to automate unit testing, so that I can ensure that each part of the code performs as expected after any changes.
+
+    - As a developer, in my CI/CD pipeline, I want to build the application into a Docker image, so that I can easily deploy and scale the application.
+
+    - As a developer, I want to push the Docker image to GitLab's container registry after a successful build, so that it can be easily accessed and deployed from a centralized location.
+
+#############################
+## back_to_the_application ##
+#############################
+
+# As a developer, I want to use the API from api-ninjas.com, so that I can provide a wide variety of quotes for users.
+
+# As a user, I want to choose between getting a random quote or selecting a quote from a specific category, so that I can have control over the type of quote I receive.
+
+# As a user, when I select a category, I want to receive a random quote from that category, so that I can enjoy a quote that is relevant to my interests.
+
+- As a user, I want to add a quote to my favorites, so that I can easily revisit it in the future.
+
+- As a user, I want to see a list of all my favorite quotes, so that I can review the quotes I've enjoyed most.
+
+- As a user, I want to have a history of all the quotes that have been shown to me, so that I can look back on the quotes I've received.
+
+- As a user, I want to experience colored output when using the application, so that my interaction with the app is more visually enjoyable (OPTIONAL)
+
+
+
+- To Do
+# Done
